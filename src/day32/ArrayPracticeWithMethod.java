@@ -24,7 +24,7 @@ public class ArrayPracticeWithMethod {
     // print out each item in this format
     // arrays has items : --->>> all the items here
     public static void printArrayItems(int[] nums) {
-        System.out.println("arrays has items :" + Arrays.toString(nums));
+        System.out.println("arrays has items : " + Arrays.toString(nums));
     }
     // printMaxOfIntArray
     // this method has one int array as parameter

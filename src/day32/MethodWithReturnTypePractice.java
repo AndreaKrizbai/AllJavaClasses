@@ -9,7 +9,7 @@ public class MethodWithReturnTypePractice {
         System.out.println(divide(10, 3));
         System.out.println(divide(10, 0));
         System.out.println(divide(0, 10));
-
+        System.out.println(checkSeniorCitizen(34));
     }
 
 
