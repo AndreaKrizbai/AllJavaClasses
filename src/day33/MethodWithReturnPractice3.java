@@ -1,20 +1,18 @@
 package day33;
-
-
 /**
  * Practice method with return type
  *
  * @author Akbar
  * <p>
  * return keyword is used to return a value out of a method
- * it alos used to get out of your method
+ * it also used to get out of your method
  * the moment the return line get executed , the method will finish running
  */
 public class MethodWithReturnPractice3 {
 
     public static void main(String[] args) {
 
-        System.out.println(calculateAgeFromBirthYear(199));
+        System.out.println(calculateAgeFromBirthYear(1995));
     }
 
     /**

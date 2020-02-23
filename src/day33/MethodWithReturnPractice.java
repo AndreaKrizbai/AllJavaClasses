@@ -17,8 +17,9 @@ public class MethodWithReturnPractice {
 //          store this resulting email
 //        String herEmail =  build_GOT_Email(part1,part2) ;
 
-        String[] fullNameSplit = fullName.split(" ");
-        String herEmail = build_GOT_Email(fullNameSplit[0], fullNameSplit[1]);
+//       String[] fullNameSplit = fullName.split(" ");
+//        String herEmail = build_GOT_Email(fullNameSplit[0], fullNameSplit[1]);
+        String herEmail = build_GOT_Email(fullName.split(" ")[0], fullName.split(" ")[1]);
 
         System.out.println("herEmail = " + herEmail);
 
@@ -54,7 +55,6 @@ public class MethodWithReturnPractice {
      * firstName initial + lastName + @NightWatch.com
      */
     public static String build_GOT_Email(String firstName, String lastName) {
-
 //        String email = firstName.charAt(0) + lastName + "@NightWatch.com";
 //        return email ;
         return firstName.charAt(0) + lastName + "@NightWatch.com";
