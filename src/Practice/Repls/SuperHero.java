@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Repls;
 
 import java.util.Scanner;
 

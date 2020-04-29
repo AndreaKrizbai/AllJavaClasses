@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Repls;
 
 public class FiveLittleMonkeys {
     public static void main(String[] args) {
