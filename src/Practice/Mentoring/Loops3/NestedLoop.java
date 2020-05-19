@@ -4,9 +4,8 @@ import java.util.Arrays;
 
 public class NestedLoop {
     public static void main(String[] args) {
-        int arr2D[][] = { {1, 2, 3},
-                          {4, 5},
-                          {6, 7, 8, 9}};
+        int arr2D[][] = {{1, 2,},
+                         {3, 4},};
         print2DArray(arr2D);
     }
 
